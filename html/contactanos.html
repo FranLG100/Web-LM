@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="../css/bootstrapModificado.css" type="text/css">
+	<link rel="stylesheet" href="../css/personal.css" type="text/css">
+	
+	<title>Contáctanos</title>
+</head>
+<body>
+	<div>
+		<img src="../image/wired.png" class="myHeader" />
+	</div> 
+	<!--Barra de navegación-->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<a class="navbar-brand" href="../index.html">Fallo de Raccord</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+			<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+				<li class="nav-item">
+					<a class="nav-link" href="archivo.html">Archivo</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="cartelera.html">Cartelera</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="trailer.html">Tráilers</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="taquilla.html">Taquilla</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="contactanos.html">Contáctanos</a>
+				</li>
+			</ul>
+			<form class="form-inline my-2 my-lg-0">
+				<input class="form-control mr-sm-2" type="search" placeholder="Search">
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+			</form>
+		</div>
+	</nav>
+	<!--Fin de la barra de navegación-->
+	<div class="container bottom-space">
+		<div class="row top30">
+			<!--Comienzo de la parte Imagen-Texto-->
+			<div class="col-12 col-lg-8">
+				<!--Formulario-->
+				<form id="formcontacto" action="Pedidorecibido.html" enctype="multipart/form-data" method="post" class="bottom-space"><!--Modificado en #formcontacto-->
+					<div class="form-group row top10">
+						<h3 class="col-12 top30">Contáctanos</h3>
+						<label for="nombre" class="col-sm-2 col-form-label top10">Nombre: </label>
+						<div class="col-sm-4 top10">
+							<input type="text" class="form-control" id="nombre" placeholder="John" required>
+						</div>
+						<label for="nombre" class="col-sm-2 col-form-label top10">Apellidos: </label>
+						<div class="col-sm-4 top10">
+							<input type="text" class="form-control" id="nombre" placeholder="Doe" required>
+						</div>
+
+					</div>
+
+					<div class="form-group row">
+						<label for="inputEmail3" class="col-sm-2 col-form-label">Email: </label>
+						<div class="col-sm-4">
+							<input type="email" class="form-control" id="inputEmail3" placeholder="johndoe@gmail.com" required>
+						</div>
+					</div>
+
+					<div class="form-group row">
+						<label for="introduzcaContrasenya" class="col-sm-2 col-form-label">Contraseña: </label>
+						<div class="col-sm-4">
+							<input type="password" class="form-control" id="introduzcaContrasenya" placeholder="abcd1234" minlength="8" maxlength="20" required>
+
+						</div>
+					</div>
+					<div class="form-group row">
+						<label for="tlf" class="col-sm-2 col-form-label">Teléfono: </label>
+						<div class="col-sm-4">
+							<input type="tel" class="form-control" id="telefono" placeholder="666 666 666" maxlength="9" pattern="[0-9]{9,9}" title="El teléfono debe constar de 9 caracteres numéricos" required>
+						</div>
+					</div>
+
+					<div class="form-group row">
+
+						<label for="sexo" class="col-2 col-form-label">Sexo: </label>
+						<div class="form-check form-check-inline">
+							<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="hombre">
+							<label class="form-check-label" for="inlineRadio1">Hombre</label>
+						</div>
+						<div class="form-check form-check-inline">
+							<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="mujer">
+							<label class="form-check-label" for="inlineRadio2">Mujer</label>
+						</div>
+					</div>
+
+					<div class="form-group row">
+						<h5 class="col-12 top30">Trabaja con nosotros</h5>
+						<label for="selecciónServicio" class="col-sm-2 col-form-label top10">Puesto de Trabajo: </label>
+						<div class="form-group col-sm-4 col-form-label top10">
+							<select id="seleccionTrabajo" class="form-control col-form-label" required>
+								<option selected>Crítico</option>
+								<option>Periodista</option>
+								<option>Redactor</option>
+								<option>Fotógrafo</option>
+								<option>Montador</option>
+								<option>Auxiliar</option>
+							</select>
+						</div>
+					</div>
+
+					
+
+
+					<div class="form-group">
+						<label for="descripciónServicio">¿Por qué quieres trabajar con nosotros?</label>
+						<textarea class="form-control col-sm-6" id="descripciónServicio"></textarea>
+					</div>
+
+					
+					<div class="form-group">
+						<label for="file">Envía tu currículum: </label>
+						<input type="file" class="form-control-file" id="subirArchivo">
+					</div>
+
+					<div class="form-check">
+						<label class="form-check-label">
+							<input class="form-check-input" type="checkbox" value="" checked>
+							Deseo subscrimirme al Canal de Noticias
+						</label>
+					</div>
+
+					<input class="offset-3 offset-md-0 btn btn-primary top30" type="submit" form="formcontacto" value="Enviar">
+					<input class="offset-2 offset-md-0 btn btn-primary top30" type="reset" value="Reiniciar">
+
+					<!--/div-->
+				</form>
+				<!--Fin de la quinta fila-->
+				<!--Fin de la parte Imagen-Texto-->
+			</div>
+
+
+
+			<!--Menú lateral de navegación-->
+			<div class="d-none d-lg-block col-lg-3  offset-lg-1 top30">
+				<div class="list-group list-group-flush">
+					<a href="#" class="list-group-item list-group-item-action active centered">
+						Webs Amigas
+					</a>
+					<a href="https://www.deviantart.com/art/Above-the-clouds-490270649" target="blank" class="list-group-item list-group-item-action centered">Webs Amiga</a>
+					<a href="https://www.foxtv.es/" target="_blank_" class="list-group-item list-group-item-action centered">Webs Amiga</a>
+					<a href="https://www.netflix.com/es/" target="_blank" class="list-group-item list-group-item-action centered">Webs Amiga</a>
+					<a href="https://www.saatchiart.com/photography" target="_blank" class="list-group-item list-group-item-action centered">Webs Amiga</a>
+					<a href="http://diffferent.es/" target="_blank" class="list-group-item list-group-item-action centered">Webs Amiga</a>
+					<a href="http://www.laclaqueta.com/" target="_blank" class="list-group-item list-group-item-action centered">Webs Amiga</a>
+					<a class="list-group-item audio " id="whiteAudio"><audio src="../audio/audio.mp3" controls></audio></a>
+				</div>
+			</div>
+		</div>
+		<div class="row top30">
+			<h3>Visítanos en</h3>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3170.2195324741638!2d-5.974334884462965!3d37.38464024228151!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd126ebcd0cffff9%3A0xa390809a47e123ae!2sCinesur+nervi%C3%B3n+plaza!5e0!3m2!1ses!2ses!4v1542958651681" class="col-12" id="map" allowfullscreen></iframe>
+			</div>
+		<!--Fin del menú lateral-->
+		<!--Paginación-->
+
+		<!--Prueba del dropdown-->
+		<div class="row top30">
+			<div class="top30 col12 centeredElement d-lg-none">
+				<div class="dropdown show">
+					<a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Webs Amigas
+					</a>
+
+					<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+						<a class="dropdown-item" href="https://www.deviantart.com/art/Above-the-clouds-490270649" target="_blank">Deviant Art</a>
+						<a class="dropdown-item" href="https://www.foxtv.es/" target="_blank">FOX</a>
+						<a class="dropdown-item" href="https://www.netflix.com/es/" target="_blank">Netflix</a>
+						<a class="dropdown-item" href="https://www.saatchiart.com/photography" target="_blank">Saatchi Art</a>
+						<a class="dropdown-item" href="http://diffferent.es/" target="_blank">Diffferent</a>
+						<a class="dropdown-item" href="http://www.laclaqueta.com/" target="_blank">La Claqueta</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Fin del container-->
+	</div>
+
+
+	<!--Inicio del Footer-->
+
+	<nav class="navbar navbar-expand navbar-dark bg-dark footer">
+		<a class="navbar-brand" href="index.html">
+			<img src="../image/facebook.png" width="30" height="30" alt="">
+		</a>
+		<div class="collapse navbar-collapse" id="navbarText">   
+			<a class="navbar-brand ml-auto" href="#">
+				<img src="../image/twitter.png" class="iconRight" width="30" height="30" alt="">
+			</a>
+			<a class="navbar-brand" href="#">
+				<img src="../image/facebook.png" class="iconRight" width="30" height="30" alt="">
+			</a>
+			<a class="navbar-brand" href="#">
+				<img src="../image/Youtube.png" class="iconRight" width="30" height="30" alt="">
+			</a>
+		</div>
+	</nav>
+
+	<!--Fin del Footer-->
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="../js/bootstrap.js"></script>
+</body>
+</html>

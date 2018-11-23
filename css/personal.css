@@ -1,0 +1,96 @@
+.myHeader{
+	width: 100%;
+	max-height: 200px;
+}
+
+.footer {
+	/*position: absolute;*/
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 45px; /* Set the fixed height of the footer here */
+	/*line-height: 45px; /* Vertically center the text there */
+	background-color: orange;
+}
+.borde{
+	border:3px;
+	border-style: solid;
+	border-color: orange;
+}
+
+.top10{
+	margin-top: 10px;
+}
+
+.top30{
+	margin-top: 30px;
+}
+
+.top50{
+	margin-top: 50px;
+}
+
+.centered{
+	text-align: center;
+}
+
+.justified{
+	text-align: justify;
+}
+
+.bottom-space{
+	padding-bottom: 30px;
+}
+
+.iconLeft{
+	margin-left:15px;
+}
+
+.iconRight{
+	right: :0;
+}
+
+.centeredElement{
+	margin: 10px auto auto auto;
+}
+
+.header-image{
+	margin: auto;
+	max-height: 150px;
+	max-width: 600px;
+	width: 100%;
+}
+
+#whiteAudio {
+	background-color: white;
+}
+
+#whiteAudio:hover {
+	background-color: white;
+}
+
+audio{
+	width:100%;
+}
+
+.peliPrincipal{
+	height: 400px;
+	max-width: 250px;
+}
+
+.peliSecundaria{
+	height: 170px;
+	min-height: 170px;
+	/*max-width: 85px;*/
+	min-width: 105px;
+	max-width: 120px;
+}
+
+.critica{
+	max-height: 400px;
+	width: 100%;
+}
+
+#map{
+	min-height: 400px;
+}
