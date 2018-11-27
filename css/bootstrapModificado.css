@@ -173,6 +173,7 @@ a {
 /*USADO Enlaces*/
 a:hover {
   color: orange;
+  transition: 0.3s;
   /*text-decoration: underline;*/
 }
 
@@ -4510,6 +4511,7 @@ input[type="button"].btn-block {
   left: 0;
   padding: 1.25rem;
   color: orange;
+  transition: 0.5s;
 }
 
 .card-img-overlay a {
