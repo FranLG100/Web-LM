@@ -107,3 +107,7 @@ audio{
 #map{
 	min-height: 400px;
 }
+
+.small_img{
+	width: 100%;
+}
