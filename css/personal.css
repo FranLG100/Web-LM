@@ -56,11 +56,14 @@ top: 40px;
 }
 
 .iconLeft{
-	margin-left:15px;
+	height: 30px;
+	width: 30px;
 }
 
 .iconRight{
 	right: :0;
+	height: 30px;
+	width: 30px;
 }
 
 .centeredElement{
