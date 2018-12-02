@@ -104,16 +104,19 @@ audio{
 }
 
 .peliPrincipal{
-	height: 400px;
+	max-height: 400px;
 	max-width: 250px;
+	width: 100%;
 }
 
 .peliSecundaria{
-	height: 170px;
-	min-height: 170px;
+	
+	height: 100%;
+	max-height: 170px;
 	/*max-width: 85px;*/
-	min-width: 105px;
-	max-width: 120px;
+	width: 100%;
+	max-width: 140px;
+
 }
 
 .critica{
