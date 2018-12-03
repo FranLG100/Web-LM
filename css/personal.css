@@ -131,3 +131,7 @@ audio{
 .small_img{
 	width: 100%;
 }
+
+.right_table{
+text-align: right;
+}
