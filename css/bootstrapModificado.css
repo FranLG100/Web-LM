@@ -4,6 +4,9 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
+ /*Si se busca la palabra USADO en el buscador, se podrá ver
+ qué elementos de Boostrap han sido modificados para mi uso personal*/
 :root {
   --blue: #007bff;
   --indigo: #6610f2;

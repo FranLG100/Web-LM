@@ -9,6 +9,9 @@
  * Copyright 2014-2018 Alfiana E. Sibuea and other contributors
  * Released under the MIT license
  * https://github.com/fians/Waves/blob/master/LICENSE */
+
+ /*Debido a que entraba en conflicto con Boostrap, he pegado solo algunas clases
+ que me son necesarias. No es el CSS de Material Design al completo.*/
 .waves-effect {
   position: relative;
   cursor: pointer;
