@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+	<channel>
+		<title>EL TIEMPO</title>
+		<link>https://www.tiempo.es/</link>
+		<description>Tu web del tiempo</description>
+		<language>es</language>
+
+		<item>
+			<title>Primavera Sound</title>
+			<link>https://www.tiempo.es/especial/festivales-de-musica/primavera_sound-es0bc0187.html</link>
+			<description>¿Será un festival pasado por agua?</description>
+		</item>
+
+	</channel>
+</rss>

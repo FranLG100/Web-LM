@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>EL TIEMPO</title>
+	<id>https://www.tiempo.es/</id>
+	<updated>2018-12-16T11:23:02Z</updated>
+
+	<entry>
+	    <title>Lluvia en el festival</title>
+	    <link href="https://www.tiempo.es/especial/festivales-de-musica/primavera_sound-es0bc0187.html"/>
+	    <id>https://www.tiempo.es/especial/festivales-de-musica/primavera_sound-es0bc0187.html</id>
+	    <updated>2018-12-16T11:23:02Z</updated>
+	    <author>
+	    	<name>tiempo.es</name>
+	    </author>
+	    <summary>Tal vez llueva, tal vez no</summary>
+  </entry>
+</feed>
