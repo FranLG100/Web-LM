@@ -3,6 +3,7 @@
 	<title>EL TIEMPO</title>
 	<id>https://www.tiempo.es/</id>
 	<updated>2018-12-16T11:23:02Z</updated>
+	<link href ="https://franlg100.github.io/falloderaccord/feed/pruebaAtom.xml" rel="self" type="application/rss+xml" />
 
 	<entry>
 	    <title>Lluvia en el festival</title>
